@@ -1,0 +1,11 @@
+$(function(){
+	$('.orders').click(function(){
+		window.location.href='../myorder/orders.html';
+	});
+	$('.collect').click(function(){
+		window.location.href='../collect/collect.html';
+	});
+	$('.classify').click(function(){
+		window.location.href='../classify/classify.html';
+	});
+});

@@ -1,0 +1,253 @@
+<!doctype html>
+<html class="no-js">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maxmum-scale=1.0,user-scalable=no">
+    <title>Hello Amaze UI</title>
+
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileColor" content="#0e90d2">
+
+    <link rel="stylesheet" href="assets/css/amazeui.min.css">
+    <link rel="stylesheet" href="css/ceshi2.css">
+  </head>
+
+  <body>
+
+    <!--在这里编写你的代码-->
+    <header data-am-widget="header" class="am-header am-header-default">
+      <div class="am-header-left am-header-nav">
+        <a href="#left-link" class="">
+          <i class="am-header-icon am-icon-angle-left"></i>
+        </a>
+      </div>
+      <h1 class="am-header-title">
+        <span>购物车</span>
+      </h1>
+      <div class="am-header-right am-header-nav">
+        <span class='edit'>编辑</span>
+      </div>
+    </header>
+    <section>
+      <div class='box1'>
+        <div>
+          <span class='trans'>满39元免运费，还差39.00元</span>
+          <span class='fill'>满39元免运费</span>
+        </div>
+        <div>
+          <span class='order'>去凑单</span>
+          <span class='cance'>已免运费</span>
+        </div>
+      </div>
+      <div class='item-content am-g'>
+        <div class="checkbox">
+          <i></i>
+        </div>
+
+        <div class='am-u-sm-3 img-o'>
+          <img src="images/car1.jpg" class='am-img-responsive am-img-thumbnail am-radius' alt="">
+        </div>
+
+        <div class='am-u-sm-9 sunmer'>
+          <span class='intor'>【三只松鼠】夏威夷果265gX2</span>
+          <span class='price'>46.90</span>
+          <div class='btn-box'>
+            <button class="minus">-</button>
+            <input type="text" value='1' class='number g_quantity' disabled>
+            <button class="plus">+</button>
+          </div>
+        </div>
+      </div>
+      <div class='cart-empty'>
+        <div class='img-cart'></div>
+        <span>主人，购物车还是空的~</span>
+        <a href="../page/page2.html">
+          <button>去逛逛</button>
+        </a>
+      </div>
+    </section>
+    <div class="confirm">
+      <div class="w_c_total">
+        <div class="total_check w34 ">
+          <div class="all-checkbox">
+            <i></i>
+            <span style="white-space: nowrap;">全选</span>
+          </div>
+        </div>
+
+        <div class="w66 clearfix pay-item">
+          <div class="total_price">
+            <span class='payable-price'>
+              应付：
+              <span class='sh-price'>0.00</span>
+            </span>
+            <div class='other-price'>
+              <span>
+                总价：
+                <span class='tol-pri'>0.00</span>
+              </span>
+              <span>
+                优惠：
+                <span>0.00</span>
+              </span>
+            </div>
+          </div>
+          <div class="total_balance">
+            <a href="javascript:void(0)">
+              去结算
+            </a>
+          </div>
+        </div>
+        <div class='del-btn'>
+          <button>删除</button>
+        </div>
+      </div>
+
+    </div>
+    
+    <div class="foot">
+        <div class="item">
+          <i class='icon-home'></i>
+          <a href="../page/page2.html" class="info">首页</a>
+        </div>
+        <div class="item classify">
+          <i class='icon-classfity'></i>
+          <div class="info">分类</div>
+        </div>
+        <div class="item">
+          <i class='icon-privilege'></i>
+          <div class="info">松鼠币商城</div>
+        </div>
+        <div class="item shopping active">
+          <i class='icon-cart'></i>
+          <div class="info">购物车</div>
+          <span class='badge'>1</span>
+        </div>
+        <div class="item">
+          <i class='icon-profile'></i>
+          <a href="../personal/ceshi.html" class='info'>个人中心</a>
+        </div>
+
+      </div>
+    <!-- 遮盖层 -->
+    <div class='mask'>
+      <div>
+        <div class='hd'>
+          提示
+        </div>
+        <div class='bd'>您确定要删除这1件商品吗</div>
+        <div class='ft'>
+          <button class='cancel'>取消</button>
+          <button class='yes'>确认</button>
+        </div>
+      </div>
+    </div>
+    <div class='select-btn'>
+      <button>请选择要删除的商品~</button>
+    </div>
+    <div class='edit2'>
+      <div class='edit2-content'>
+        <div class='account'>
+          <span>结算</span>
+          <span class='edit2-close-btn'>X</span>
+        </div>
+        <div class='address'>
+          <span class='tel'>spark 18363994105</span><br>
+          <span class='province'>山东省 青岛市 城阳区 春阳路东仁和居</span>
+        </div>
+        <ul class='infor'>
+          <li>
+            <span>优惠券</span>
+            <div>
+              <span class='ticket'>0张可用</span>
+              <i class='am-icon-angle-down'></i>
+            </div>
+          </li>
+          <li>
+            <span>松鼠币抵现</span>
+            <div class='coin'>
+              <span>可以使用440松鼠币抵0.44元</span>
+            </div>
+          </li>
+          <li>
+            <span>发票</span>
+            <div class='coin'>
+              <span>不需要发票</span>
+              <i class='am-icon-angle-down'></i>
+            </div>
+          </li>
+          <li>
+            <span>商品清单</span>
+            <div class='coin'>
+              <span>共一件</span>
+              <i class='am-icon-angle-down'></i>
+            </div>
+          </li>
+          <li class='message'>
+            <span>留言：</span>
+            <input type="text" placeholder='订单补充说明'>
+          </li>
+          <li>
+            <span>支付方式</span>
+            <div class='pay-alipay'>
+              <i class='pay-img'></i>
+              <span>支付宝</span>
+              <i class='am-icon-angle-down'></i>
+            </div>
+          </li>
+          <li>
+            <span>应付总额</span>
+            <div class='trans-price'>
+              <div class='checkout-box'>
+                <div class='pr-box'>
+                  <span class='total-pri'>46.44</span>
+                  <span>(含运费：0.00)</span>
+                </div>
+                <span class='checkout-amount-tips'>点击查看价格明细</span>
+              </div>
+              <i class='am-icon-angle-down'></i>
+            </div>
+          </li>
+          <li>
+            <button>确认付款</button>
+          </li>
+        </ul>
+      </div>  
+    </div>
+    <!--[if (gte IE 9)|!(IE)]><!-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <!--<![endif]-->
+    <!--[if lte IE 8 ]>
+  <script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+  <script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+  <![endif]-->
+    <script src="assets/js/amazeui.min.js"></script>
+    <script src="js/ceshi2.js"></script>
+  </body>
+
+</html>

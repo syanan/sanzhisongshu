@@ -1,0 +1,30 @@
+body{
+	background-color: #f5f5f9;
+}
+.result{
+	margin-top: 120px;/*text-align: center;*/
+}
+.result-logo{
+	width: 70px;height: 98px;margin:0 auto;
+	background-image: url('../images/下载.png');
+	background-size: contain;
+}
+.result-title{
+	margin-top: 40px;font-size: 15px;
+	color:#a5a5a5;padding:0 15px;/*margin: 0 auto;*/
+}
+.result-button{
+	padding:0 15px;margin-top: 50px;
+}
+.fir{
+	color: #fff;width: 100%;background: #0ae;
+	border-radius: 4px;border:none;outline: none;
+	padding: 10px;font-size: 18px;margin-bottom: 20px;
+}
+.last{
+	color: #00aaee;width: 100%;
+    background: #ffffff;
+    border-radius: 4px;border:none;outline: none;
+	padding: 10px;font-size: 18px;
+	border: 1px solid #00aaee;
+}

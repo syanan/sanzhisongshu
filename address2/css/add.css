@@ -1,0 +1,132 @@
+body {
+	background-color: #fff;
+	position: relative;
+}
+ul{
+	list-style: none;
+}
+.top {
+	background-color: #fff!important;
+	padding-left: 0!important;
+	height: 3.7rem!important;
+	line-height: 3.7rem!important;
+}
+
+.am-panel {
+	border: none;
+}
+.am-header-title>span {
+	color: #000;
+	font-size: 1.7rem;
+}
+
+.text {
+	color: black;
+	font-size: 2.5rem;
+}
+
+/*内容*/
+section{
+	padding-left: 10px;color: #999;
+}
+.item{
+	display: flex;
+	justify-content:flex-start;
+	padding: 9px 0;
+}
+/*.item>span{
+	width: 20%;
+}*/
+.item>input{
+	border:none;color: #262626;
+	outline: none;flex-grow:0.9;
+}
+.region{
+	display: flex;
+	justify-content:flex-start;
+	align-items:center;
+	/*border:1px solid red;*/
+}
+.user-region{
+	flex-grow:1;
+	/*border:1px solid green;*/
+	/*display: flex;*/
+	/*height: 40px;line-height: 40px;*/
+}
+.user-region>input{
+	width: 90%;border:none;outline: none;
+}
+.am-icon-angle-right{
+	font-size: 2.5rem;
+}
+.icon-region{
+	padding:0 0.625rem;
+}
+.icon-region>i{
+	display: inline-block;
+	width: 20px;height: 2rem;
+	background-image: url('../images/icon-gps.png');
+	background-size: 13px auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.item2{
+	display: flex;
+	justify-content:space-between;
+	padding-bottom: 10px;
+	align-items:flex-end;
+}
+.change{
+	margin-right: 25px;
+	position: relative;
+}
+.change>div{
+	display: inline-block;
+	width: 36px;height: 21px;
+	border:2px solid #e6e6e6;
+	border-radius: 20px;
+	/*padding-right: 10px;*/
+}
+.track{
+	background-color: #77bc1f;
+	border-color:#77bc1f;
+}
+.change>span{
+	display: inline-block;
+	width: 21px;height: 21px;
+	border-radius: 50%;
+	border:1px solid #e6e6e6;
+	position: absolute;left: 0;top:0;
+	/*box-shadow: 0 2px 7px rgba(0,0,0,.35), 0 1px 1px rgba(0,0,0,.15);*/
+
+}
+.circle{
+	background-color: #fff;
+	/*z-index: 30;*/
+	position: absolute;top:0;
+	right: 0!important;
+}
+.consignee-default{
+	display: flex;
+	flex-direction:column;
+}
+.default{
+	font-size: 15px;
+}
+.order-default{
+	font-size: 11px;
+}
+
+.save{
+	/*width: 100%;*/
+	padding: 30px 10px 0 0;
+	/*border:1px solid red;*/
+}
+.save>button{
+	width: 100%;
+	color: #fff;border-radius: 4px;
+	background-color: #cecece;
+	height: 38px;border:none;
+	outline: none;
+}

@@ -1,0 +1,102 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #f9f9f9;
+	font-size: 13px;
+}
+.header{background-color: #fff;padding: 2px 0;}
+.back_btn {
+	background-color: transparent !important;
+	border: none;
+	outline: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 30px;
+}
+/*.am-icon-angle-left{font-weight: normal !important;}*/
+.title {
+	float: left !important;
+	font-size: 17px;
+	line-height: 2.4;
+	text-align: center;
+}
+
+/*内容*/
+section{
+	background-color: #fff;
+
+}
+.fir{
+	display: flex;justify-content:space-start;
+	padding: 10px;
+}
+.img-box{
+	width: 117px;height: 117px;
+	margin-right: 10px;
+}
+.img-box>img{
+	width: 100%;height: 100%;
+}
+.infor{
+	display: flex;flex-direction:column;
+	justify-content:space-around;
+}
+.item-name{
+	color:#262626;font-size: 15px;
+}
+.item-price{
+	color: #ee2e52;font-size: 17px;
+}
+.item-status{
+	display: flex;justify-content:space-between;
+}
+.item-status>span{
+	color: #999;font-size: 15px;
+}
+.item-status>div>i{
+	display: inline-block;
+	width: 20px;height: 26px;
+	background-size: 17px auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.icon-delete{
+	margin-right: 20px;
+	background-image: url('../images/icon-delete.png');
+}
+.icon-cart{
+	background-image: url('../images/icon-cart.png');
+	background-size: 20px auto!important;
+}
+.success,.add{
+	position: fixed;bottom: 100px;left: 50%;
+	background-color: #777;color: #fff;
+	padding: 10px 15px;transform:translateX(-50%);
+	border-radius: 4px;display: none;
+}
+/*空*/
+.cart-empty{
+	opacity: 0;
+	position: fixed;top:30%;left: 50%;
+	transform:translateX(-50%);
+	display: flex;flex-direction:column;
+	align-items:center;
+}
+.img-cart{
+	height: 140px;width: 140px;
+	background-image: url('../images/cart-empty.png');
+	background-size: 100% 100%;
+	background-position: center;margin: 0 auto;
+}
+.cart-empty>span{
+
+	color: #999;font-size: 14px;
+	text-align: center;
+}
+.cart-empty button{
+	outline: none;border: none;
+	background-color: #f9f9f9!important;
+	border:1px solid #77bc1f;color: #77bc1f;
+	border-radius: 4px;margin-top: 15px;padding:5px 20px;
+}

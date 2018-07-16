@@ -1,0 +1,211 @@
+body{
+	margin:0;background-color: #f9f9f9;
+}
+.header{
+	height:289px;width: 100%;
+	background-image: url('../images/user-bg.jpg');
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	/*border:1px solid red;*/
+
+}
+.user-content{
+	text-align: center;padding-top: 4rem;
+}
+.user-avatar{
+	width: 5.5rem;
+    height: 5.5rem;
+    margin:0 auto;
+    border: 1px solid #fff;
+    border-radius: 3rem;
+
+    /*overflow: hidden;*/
+}
+.user-avatar>img{
+	width: 100%;height: 100%;border-radius: 50%;
+}
+.user-name,.count{
+	color:#fff;
+}
+.count{
+
+}
+.am-icon-angle-right{
+	font-size: 2rem;
+}
+
+.user-button{
+	position: absolute;
+	bottom: 0;left: 0;z-index: 100;
+	background-color: rgba(0,0,0,.22);
+    color: #fff;
+}
+.collect,.coin{
+	display: flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+}
+
+
+/*我的订单*/
+.my-order{
+	background-color: #fff;margin-top: 5px;
+}
+.my-order>.am-g{
+	padding-top:10px;padding-bottom: 10px;
+}
+.my-order .order-img{
+	width: 22px;height: 22px;
+	background-image: url('../images/icon-button-order.png');
+	background-size: 22px auto;display: inline-block;
+}
+.order>i{
+	vertical-align: middle;
+}
+.order>span{
+	vertical-align: middle;
+}
+.check{
+	text-align: right;color: #999;font-size: 15px;
+}
+.button-list{
+   
+   /* height: 46px;
+    width: 100%;*/
+    display: flex;
+    justify-content: space-around;
+}
+.button-list .items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.button-list>.items{
+	font-size: 15px;color: #999;
+}
+/*.button-list .item.active{
+    color: #77bc1f;
+}
+.button-list .item span{
+    font-size: 20px;
+}
+.button-list .item .info{
+    font-size: 12px;
+}
+*/
+.my-ticket{
+	background-color: #fff;margin-top: 5px;
+}
+.my-ticket>.am-g:nth-child(1){
+	padding-top: 10px;padding-bottom: 10px;
+}
+.ticket-img{
+	width: 22px;height: 22px;
+	background-image: url('../images/icon-button-coupons2.png');
+	background-size: 22px auto;display: inline-block;
+}
+.price-img{
+	width: 22px;height: 22px;
+	background-image: url('../images/icon-button-recommended3.png');
+	background-size: 22px auto;display: inline-block;
+}
+
+
+.my-server{
+	background-color: #fff;margin-top: 5px;
+}
+.my-server>.am-g:nth-child(1){
+	padding-top: 10px;padding-bottom: 10px;
+}
+.my-server>.am-g:nth-child(2){
+	padding-top: 10px;padding-bottom: 10px;
+}
+.server-img{
+	width: 22px;height: 22px;
+	background-image: url('../images/icon-button-service4.png');
+	background-size: 22px auto;display: inline-block;
+}
+.help-img{
+	width: 22px;height: 22px;
+	background-image: url('../images/icon-button-help5.png');
+	background-size: 22px auto;display: inline-block;
+}
+.set-img{
+	width: 22px;height: 22px;
+	background-image: url('../images/icon-button-setting6.png');
+	background-size: 22px auto;display: inline-block;
+}
+
+/*页脚*/
+.foot {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 46px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	z-index: 100;
+	background-color: #fff;
+}
+
+.foot .item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.foot .item span {
+	font-size: 20px;
+}
+
+.foot .item .info {
+	font-size: 12px;color: #333;
+}
+/*.foot .item.active {
+	color: #77bc1f;
+}*/
+.foot .item.active>div{
+	color: #77bc1f;
+}
+.foot>.item>i{
+	display: inline-block;
+	height: 30px;width: 100%;
+	background-size: 21px auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.icon-home{
+	background-image: url('../images/icon-home.png');
+}
+.icon-classfity{
+	background-image: url('../images/icon-classify.png');
+	
+}
+.icon-privilege{
+	background-image: url('../images/icon-privilege.png');
+	
+}
+.icon-cart{
+	background-image: url('../images/icon-cart.png');
+	
+}
+.icon-profile{
+	background-image: url('../images/icon-profile-active.png');
+}
+.shopping{
+	position: relative;
+}
+.badge{
+	display: inline-block;
+	width: 16px;height: 16px;
+	background-color: #ff9601;
+	color: #fff;border-radius: 50%;
+	position: absolute;right: 0;top:0;
+	text-align: center;line-height: 16px;
+	font-size: 12px!important;
+	opacity: 0;
+}

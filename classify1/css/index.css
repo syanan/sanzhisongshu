@@ -1,0 +1,112 @@
+body{
+	background-color: #f9f9f9;
+}
+header{
+	background-color: #fff!important;
+	display: flex;
+}
+.am-header{
+	height: 43px;line-height: 43px;
+	
+}
+
+.am-header-left>a{
+	min-width: 0!important;
+	font-size: 2rem!important;
+	
+}
+.am-header-left>a>i{
+	color: black;
+}
+.am-header-title{
+	margin:0 5% 0 10% !important;
+	/*width:70%;*/flex-grow:0.8;
+	color: #262626!important;
+	/*position: relative;padding: 0 2px;*/
+	position: relative;
+	/*border:1px solid red;*/
+}
+.am-header-title>input{
+	padding-left: 25px;
+	width: 100%;
+	color:#000;font-size: 1.1rem;
+    height: 25px;
+    line-height: 15px;
+    color: #262626!important;
+    /*font-size: 11px;*/
+    background-color: #eaebed;
+    border-radius: 3px;
+    /*-webkit-appearance: none;*/
+    border:none;outline: none;
+    
+}
+.search{
+	display: inline-block;
+	width: 12px;height: 12px;
+	background-image: url('../images/icon-search-black.png');
+	background-size: 100% 100%;
+	position: absolute;left: 0;top:45%;
+	margin-left: 5px;
+}
+.am-header-nav{
+	color: #000!important;/*font-size: 1.3rem!important;*/
+}
+.am-header-nav>span{
+	font-size: 1.3rem!important;
+
+}
+
+
+/*内容*/
+.hot-search{
+	background-color: #fff;
+	padding:0 10px;
+}
+.hot-search>span{
+	display: inline-block;
+	font-size: 15px;
+	padding: 15px 5px;
+
+}
+.food>div{
+	font-size: 0;
+
+}
+.food a{
+	display: inline-block;
+	margin-right: 10px;margin-bottom: 10px; 
+	border-radius: 4px;font-size: 13px;
+	line-height: 29px;height: 29px;
+	padding:0 5px; 
+}
+.item1>a{
+	border:1px solid #ee2e52;
+    color: #ee2e52;
+}
+.item1>a:nth-child(4){
+	border:1px solid #262626;
+    color: #262626;
+}
+.item2>a{
+	border:1px solid #ee2e52;
+    color: #ee2e52;
+}
+.item2>a:nth-child(2),.item2>a:nth-child(4){
+	border:1px solid #262626;
+    color: #262626;
+}
+.item3>a{
+	border:1px solid #262626;
+    color: #262626;
+}
+
+.record{
+	background-color: #fff;
+	margin-top: 10px;padding: 1px 10px;
+}
+.record>div{
+	padding: 15px 5px;font-size: 15px;
+}
+.height{
+	height: 330px;background-color: #fff;
+}

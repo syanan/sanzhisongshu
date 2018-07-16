@@ -1,0 +1,84 @@
+<!doctype html>
+<html class="no-js">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maxmum-scale=1.0,user-scalable=no">
+    <title>Hello Amaze UI</title>
+
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileColor" content="#0e90d2">
+
+    <link rel="stylesheet" href="assets/css/amazeui.min.css">
+    <link rel="stylesheet" href="css/login2.css">
+  </head>
+
+  <body>
+
+    <!--在这里编写你的代码-->
+    <div class='main'>
+      <div class="header am-g am-vertical-align">
+        <button class='back_btn am-u-sm-1 '>
+          <i class='am-icon-angle-left'></i>
+        </button>
+        <div class="title am-u-sm-10 ">
+          <span>快速注册</span>
+        </div>
+      </div>
+      <form action="" method='post'>
+        <div class='content'>
+          <div class='phone am-padding-vertical-sm am-g'>
+            <span class='t am-u-sm-2'>手机号</span>
+            <input class='t am-u-sm-6 am-u-end' type="text" placeholder='请输入手机号'>
+          </div>
+          <div class='vCode am-padding-vertical-sm am-g'>
+            <span class='am-u-sm-2 t'>验证码</span>
+            <input class='am-u-sm-6 t' type="text" placeholder='请输入验证码'>
+            <span class='am-u-sm-3 am-fr t v'>获取验证码</span>
+          </div>
+        </div>
+        <div class="btn_box">
+          <button class='login_btn am-btn-block' type="button" >
+            下一步
+          </button>
+        </div>
+        
+      </form>
+    </div>
+
+    <!--[if (gte IE 9)|!(IE)]><!-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <!--<![endif]-->
+    <!--[if lte IE 8 ]>
+  <script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+  <script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+  <![endif]-->
+    <script src="assets/js/amazeui.min.js"></script>
+    <script src='js/login2.js'></script>
+  </body>
+
+</html>

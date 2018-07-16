@@ -1,0 +1,210 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #f9f9f9;
+	font-size: 13px;
+}
+.header{background-color: #fff;padding: 2px 0;}
+.back_btn {
+	background-color: transparent !important;
+	border: none;
+	outline: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 30px;
+}
+/*.am-icon-angle-left{font-weight: normal !important;}*/
+.title {
+	float: left !important;
+	font-size: 17px;
+	line-height: 2.4;
+	text-align: center;
+}
+
+/*内容*/
+
+.am-tabs{
+	margin:0;
+}
+.am-tabs-nav{
+	background-color: #fff!important;
+}
+.am-tabs-nav a{
+	font-size: 12px;
+}
+.am-tabs-nav>li.am-active a{
+	background-color: #fff!important;
+	color: #77bc1f!important;
+}
+.am-tabs-nav>li:nth-child(1).am-active a{
+	position: relative;
+}
+.am-tabs-nav>li:nth-child(1).am-active a:after{
+	content: '';
+	width: 30px;height: 0;border:1px solid #77bc1f;
+	position: absolute;bottom:0;left: 50%;
+	transform:translateX(-50%);
+}
+.am-tabs-nav>li:nth-child(2).am-active a{
+	position: relative;
+}
+.am-tabs-nav>li:nth-child(2).am-active a:after{
+	content: '';
+	width: 45px;height: 0;border:1px solid #77bc1f;
+	position: absolute;bottom:0;left: 50%;
+	transform:translateX(-50%);
+}
+.am-tabs-nav>li:nth-child(3).am-active a{
+	position: relative;
+}
+.am-tabs-nav>li:nth-child(3).am-active a:after{
+	content: '';
+	width: 45px;height: 0;border:1px solid #77bc1f;
+	position: absolute;bottom:0;left: 50%;
+	transform:translateX(-50%);
+}
+.am-tabs-nav>li:nth-child(4).am-active a{
+	position: relative;
+}
+.am-tabs-nav>li:nth-child(4).am-active a:after{
+	content: '';
+	width: 45px;height: 0;border:1px solid #77bc1f;
+	position: absolute;bottom:0;left: 50%;
+	transform:translateX(-50%);
+}
+.am-tabs-nav>li:nth-child(5).am-active a{
+	position: relative;
+}
+.am-tabs-nav>li:nth-child(5).am-active a:after{
+	content: '';
+	width: 45px;height: 0;border:1px solid #77bc1f;
+	position: absolute;bottom:0;left: 50%;
+	transform:translateX(-50%);
+}
+.am-tabs-bd{
+	border:none;
+	/*background-color: #fff;margin-top: 5px;*/
+}
+
+.am-tab-panel{
+	padding: 0!important;
+}
+.order-box{
+	list-style: none;
+	background-color: #fff;
+	margin-top: 5px;
+	padding: 0;
+}
+.order-box>li{
+	display: flex;
+	justify-content:space-between;
+	padding: 5px 10px;
+}
+.date>span{
+	font-size: 16px;
+}
+.close{
+	display: flex;
+	align-items:center;
+}
+.close>span{
+	font-size:12px;
+}
+.del{
+	display: inline-block;/*padding-left: 10px;*/
+	width: 23px;height:100%;
+	background-image: url('../images/icon-delete.png');
+	background-size: 13px 13px;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*border:1px solid red;*/
+	position: relative;margin-left: 15px;
+}
+.del:after{
+	content:'';
+	width: 0;height: 15px;
+	border:0.7px solid #eee;
+	position: absolute;left:-5px;top:20%;
+
+
+}
+.img-box>img{
+	width: 55px;height: 55px;
+}
+.am-icon-angle-right{
+	font-size: 2.8rem;
+}
+.again{
+	
+    color: #ee2e52;
+    background-color: #fff;
+    outline: none;border:none;
+    font-size: 14px;
+	border:1px solid #ee2e52;
+	border-radius: 4px;line-height: 2rem;
+}
+.total-price{
+	color: #999;font-size: 14px;
+}
+.price{
+	color: #ee2e52;font-size: 14px;
+}
+
+/*遮盖层*/
+.mask{
+	position: fixed;left: 0;top:0;
+	width: 100%;height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 200;display: none;
+	
+}
+.mask>div{
+	background-color: rgba(255,255,255,.9);
+	position: fixed;top: 50%;left: 50%;
+	transform:translate(-50%,-50%);
+	border-radius: 5px;width: 250px;
+}
+.hd{
+	border-bottom: 1px solid #ddd;
+	font-size: 15px;text-align: center;
+	padding: 10px 0;
+}
+.bd{
+	font-size: 14px;padding:10px 0 20px;text-align: center;
+}
+.ft{
+	display: flex;justify-content:space-between;
+	padding: 0 10px 10px;
+}
+.ft>button{
+	border:none;outline: none;
+	border-radius: 2px;flex-grow:1;
+	/*height: 45px;*/padding:10px 30px;
+	/*text-align: center;*/
+}
+.ft>button:nth-child(1){
+	background-color: #f9f9f9;
+	color: #444;margin-right: 5px;
+}
+.ft>button:nth-child(2){
+	background-color: #77bc1f;
+	color: #fff;
+}
+.order-empty{
+	margin-top:65px; text-align: center;
+}
+.empty-img{
+	
+	margin: 0 auto;
+    width: 176px;
+    height: 243px;
+	background-image: url('../images/empty.png');
+	background-size:100% 100%;
+}
+.empty-text{
+	display: inline-block;
+	margin-top: 20px;
+	color: #999;font-size: 16px;
+
+} 
